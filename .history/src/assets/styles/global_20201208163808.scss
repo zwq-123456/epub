@@ -1,0 +1,10 @@
+@import './reset.scss';
+$radio:37.5;
+@function px2rem($px){
+    @return $px/$radio +rem ;
+};
+@mixin center{
+    display: flex;
+    justify-content: center;
+   align-items: center;
+}
